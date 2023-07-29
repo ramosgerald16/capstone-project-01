@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <>
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link to="/" className="navbar-brand">
               Online Bookstore
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -24,14 +26,14 @@ function Header() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="#">
+                  <Link to="/best-sellers" className="nav-link">
                     Best Sellers
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/sale" className="nav-link">
                     Sale
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <a
@@ -45,43 +47,43 @@ function Header() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link to="/collections" className="dropdown-item">
                         Collection 1
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <Link to="/collections" className="dropdown-item">
                         Collection 2
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Collection 2
-                      </a>
+                      <Link to="/collections" className="dropdown-item">
+                        Collection 3
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/new" className="nav-link">
                     New!
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/pre-orders" className="nav-link">
                     Pre-Orders
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <ul className="navbar-nav d-flex mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/login" className="nav-link">
                     Login
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link to="/wishlist" className="nav-link">
                     Wishlist
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

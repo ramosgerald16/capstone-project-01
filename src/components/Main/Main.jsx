@@ -162,7 +162,7 @@ function Main() {
           <div className="card">
             <img src="" className="card-img-top" alt="" />
             <div className="card-body">
-              <h5 className="card-title">Book 12</h5>
+              <h5 className="card-title">Book </h5>
               <p className="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis illum aliquid quae fugit repellat. Velit quas aperiam
